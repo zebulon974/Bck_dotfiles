@@ -1,372 +1,898 @@
-: 1536921879:0;pacman -Rns xfce4-terminal
-: 1536921887:0;_ pacman -Rns xfce4-terminal
-: 1536924330:0;_ useradd -G users
-: 1536924798:0;usermod -aG users jeanlouis
-: 1536925726:0;cp .vimrc ~
-: 1536925791:0;rm .vimrc
-: 1536925814:0;custom
-: 1536925836:0;cp historyjl.zsh jlh.plugin.zsh jlh.zsh-theme ~/.oh-my-zsh/custom
-: 1536926293:0;ll
-: 1536926302:0;l -a
-: 1536930102:0;ls ~
-: 1536930125:0;.icons
-: 1536930149:0;mv .icons/ ~
-: 1536930171:0;ssh
-: 1536930222:0;rm ratio_t411_29_04_2017.png
-: 1536930247:0;mv *.* ~/Images/
-: 1536930265:0;mv *.* ~/Images/ -r
-: 1536930282:0;mv Photos/ ~/Images/
-: 1536930297:0;mv DSC-300/ ~/Images/
-: 1536930314:0;mv .Nouveau\ dossier/ ~/Images
-: 1536930331:0;Images
-: 1536930373:0;rm Images
-: 1536930380:0;rmdir Images
-: 1536930419:0;mv * ~/Documents/
-: 1536930457:0;rmdir Documents
-: 1536930466:0;Musique
-: 1536930479:0;rmd Musique
-: 1536930491:0;Public
-: 1536930500:0;rmd Public
-: 1536930508:0;Vidéos
-: 1536930521:0;mc * ~/Vidéos
-: 1536930567:0;mv * ~/Vidéos
-: 1536930579:0;rmd Vidéos
-: 1536930580:0;m
-: 1536930589:0;rmd snap
-: 1536930597:0;rmd Templates
-: 1536930603:0;Github
-: 1536930616:0;rmd Github
-: 1536930622:0;rmd Desktop
-: 1536930653:0;rmd Téléchargements
-: 1536930665:0;VirtualBox\ VMs
-: 1536930680:0;cd..
-: 1536930696:0;down
-: 1536930709:0;Downloads
-: 1536930843:0;mv ISO/ ~/Téléchargements/
-: 1536930905:0;pacin smplayer
-: 1536931675:0;fc-cache -vf cache
-: 1536931831:0;mcd github
-: 1536931836:0;gcl https://github.com/amix/vimrc.git
-: 1536932410:0;gcl https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins
-: 1536932423:0;gcl https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/
-: 1536932469:0;gcl https://github.com/zsh-users/zsh-syntax-highlighting.git
-: 1536932567:0;gcl https://github.com/zsh-users/zsh-autosuggestions.git
-: 1536932651:0;lllsl
-: 1536932682:0;vimrc/
-: 1536932741:0;vim README.md
-: 1536932857:0;vim install_awesome_vimrc.sh
-: 1536932956:0;vim install_awesome_parameterized.sh
-: 1536933531:0;_ ./install_awesome_vimrc.sh
-: 1536933561:0;./
-: 1536933600:0;rmd vimrc
-: 1536933625:0;git clone --depth=1 https://github.com/amix/vimrc.git ~/.vim_runtime
-: 1536933650:0;./install_awesome_parameterized.sh
-: 1536933676:0;chmod 755 install_awesome_vimrc.sh
-: 1536933678:0;./install_awesome_vimrc.sh
-: 1536933791:0;sa
-: 1536933795:0;sa zsh
-: 1536933830:0;vimrc
-: 1536933844:0;vim .zshrc
-: 1536934593:0;git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
-: 1536935064:0;pacin ristetro
-: 1536935075:0;pacin ristreto
-: 1536935080:0;pacin ristretto
-: 1536942752:0;pacin cairo-dock cairo-dock-plug-ins
-: 1536950544:0;pacin libcups
-: 1536950592:0;systemctl enable org.cups.cupsd.service
-: 1536959458:0;gk
-: 1536959728:0;gcl https://github.com/ryanoasis/nerd-fonts.git
-: 1536959754:0;nerd-fonts/
-: 1536959794:0;git pull -rebase
-: 1536959809:0;sa base
-: 1536959817:0;grb
-: 1536959836:0;grbm
-: 1536959847:0;gup
-: 1536959861:0;gupv
-: 1536959871:0;gupa
-: 1536959982:0;gru
-: 1536960002:0;sa git
-: 1536960016:0;glum
-: 1536960046:0;ggpull
-: 1536960223:0;git reset --hard origin/master
-: 1536960292:0;git fetch origin
-: 1536960323:0;vim readme_fr.md
-: 1536960590:0;./install
-: 1536960869:0;pacman -Ss evince
-: 1536960899:0;pacman -Ss yay
-: 1536961392:0;Téléchargements/github
-: 1536961399:0;gcl git clone https://aur.archlinux.org/yay.git
-: 1536961412:0;gcl https://aur.archlinux.org/yay.git
-: 1536961420:0;cd yay
-: 1536961558:0;makepkg -sri
-: 1536964196:0;exirxit
-: 1536996072:0;pacin opnssh
-: 1536996082:0;pacin openssh
-: 1536996093:0;ssh 192.168.0.25
-: 1536996979:0;ssh-keygen --h
-: 1536997085:0;ssh-keygen -t ed25519 -C "Jean Louis HOARAU"
-: 1536997165:0;ssh-copy-id jeanlouis@192.168.0.25
-: 1536997212:0;sa ssh
-: 1537038882:0;_ vim /boot/grub/grub.cfg
-: 1537038969:0;/
-: 1537038982:0;usr/share
-: 1537044074:0;cat /etc/locale.gen
-: 1537044357:0;pacman -Suyy
-: 1537044366:0;_ pacman -Suyy
-: 1537044400:0;locale-gen
-: 1537045508:0;cat /etc/locale.conf
-: 1537045747:0;export LANG=fr_FR.UTF-8
-: 1537046838:0;localectl set-locale LANG=fr_FR.UTF-8
-: 1537046965:0;locale lis
-: 1537047339:0;_ locale list-locales
-: 1537047352:0;locale list-locales
-: 1537047356:0;locale list-locale
-: 1537047360:0;locale list -locale
-: 1537047366:0;locale list -locales
-: 1537047371:0;locale list --locales
-: 1537208276:0;sa arch
-: 1537208397:0;.scr
-: 1537208441:0;/home/jeanlouis.old
-: 1537208459:0;cat .yarnrc
-: 1537208531:0;mv .scripts/ ~/
-: 1537208539:0;mc
-: 1537208746:0;l *rc
-: 1537208767:0;vim .vimrc
-: 1537208782:0;.vim_runtime
-: 1537208895:0;.o
-: 1537208901:0;.oh
-: 1537209012:0;custom/plugins
-: 1537209040:0;....
-: 1537209633:0;statx
-: 1537211204:0;pacin trizen
-: 1537211228:0;pacman -Ss trizen
-: 1537211285:0;yay -Ss trizen
-: 1537211573:0;edal
-: 1537211631:0;srch 
-: 1537211652:0;vim /etc/pacman.conf
-: 1537211677:0;_ vim /etc/pacman.conf
-: 1537211698:0;srch arc
-: 1537551700:0;upgrade
-: 1537555461:0;srch snap
-: 1537555630:0;yay -Ss snapd
-: 1537556064:0;yay -S snapd
-: 1537556436:0;sc-enable snapd.socket
-: 1537556447:0;sc-start snapd.socket
-: 1537556478:0;_ snap 
-: 1537556485:0;_ snap list
-: 1537556998:0;snap list
-: 1537557009:0;snap
-: 1537557070:0;snap install spotify
-: 1537558129:0;spotify
-: 1537558505:0;plugins/
-: 1537558522:0;l *s*
-: 1537558549:0;l sna*
-: 1537558557:0;l sn*
-: 1537558686:0;cs
-: 1537559277:0;pacin lightdm-gtk-greeter lightdm
-: 1537559323:0;sc-enable lightdm.service
-: 1537559338:0;reboot
-: 1537559509:0;pacin lightdm-gtk-greeter
-: 1537559797:0;sudo pacman -S lightdm-gtk-greeter-settings
-: 1537559824:0;sudo localectl set-x11-keymap fr
-: 1537561783:0;dm-tool
-: 1537561795:0;dm-tool --help
-: 1537561963:0;/usr/share
-: 1537561975:0;pixmaps
-: 1537562112:0;cp ~/Images/hebus_1366x768_1504382192_4752.jpg /usr/share/pixmaps
-: 1537632134:0;cp Mon\ QRCode.png /usr/share/pixmaps
-: 1537632144:0;_ cp Mon\ QRCode.png /usr/share/pixmaps
-: 1537632455:0;gst
-: 1537634812:0;df
-: 1537634823:0;pacin dfc
-: 1537634944:0;vim install.sh
-: 1537635491:0;.local/share/fonts
-: 1537635787:0;NerdFonts
-: 1537636166:0;vim .oh-my-zsh/custom/jlh.zsh-theme
-: 1537636448:0;exit
-: 1537636698:0;rm
-: 1537640821:0;man
-: 1537640828:0;man find
-: 1537641146:0;colorize
-: 1537641163:0;cat colorize.plugin.zsh
-: 1537641202:0;:q
-: 1537641294:0;command-not-found
-: 1537641302:0;cat command-not-found.plugin.zsh
-: 1537641545:0;cat copydir/README.md
-: 1537641576:0;cat copyfile/README.md
-: 1537641618:0;cat cp/README.md
-: 1537641713:0;1
-: 1537641801:0;cat history/README.md
-: 1537641831:0;hsi
-: 1537641847:0;hsi scp
-: 1537641917:0;h
-: 1537641936:0;hsi cp
-: 1537641954:0;.oh-my-zsh/plugins
-: 1537641987:0;cat history-substring-search/README.md
-: 1537642191:0;cat -v
-: 1537642346:0;cat man/man.plugin.zsh
-: 1537642460:0;cat ssh-agent/README.md
-: 1537642510:0;ls s*
-: 1537642521:0;ls s*/
-: 1537642529:0;lsd
-: 1537642535:0;lsd s
-: 1537642542:0;lsd s*
-: 1537642555:0;lsd sh
-: 1537642562:0;lsd *s
-: 1537642583:0;cat sudo/sudo.plugin.zsh
-: 1537642661:0;cat themes/themes.plugin.zsh
-: 1537642774:0;cat dirhistory/dirhistory.plugin.zsh
-: 1537643145:0;sleep 1
-: 1537643158:0;sleep 10
-: 1537646962:0;pacin xfce4-terminal
-: 1537647157:0;.vim
-: 1537647159:0;la
-: 1537647181:0;cat .vim_mru_files
-: 1537647594:0;pacin imagemagick
-: 1537647895:0;import Images/sans_powerlevel9k.png
-: 1537648056:0;import Images/avec_powerlevel9k.png
-: 1537649905:0;localectl
-: 1537685868:0;_ vim /etc/lo
-: 1537685921:0;_ vim /etc/locale.gen
-: 1537685985:0;_ locale-gen
-: 1537686052:0;locale
-: 1537686075:0;_ locale
-: 1537686123:0;touch 
-: 1537686370:0;locale -a
-: 1537686616:0;sc-disable lightdm.service
-: 1537699220:0;etc/
-: 1537699237:0;sudo su
-: 1537699262:0;_ l
-: 1537704120:0;Téléchargements
-: 1537704322:0;source .zshrc
-: 1537704327:0;.oh-my-zsh
-: 1537731094:0;_ ls
-: 1537731121:0;cat hostname
-: 1537731434:0;/etc
-: 1537811227:0;_ vim /etc/resolv.conf
-: 1537812149:0;maj
-: 1537812156:0;ls
-: 1537813027:0;root && sleep 10
-: 1537813058:0;touch test
-: 1537813064:0;rm test
-: 1537816186:0;scp .zshrc sshsr
-: 1537816198:0;rm sshsr
-: 1537816240:0;scp .zshrc jeanlouis@sshsrv:/home/jeanlouis/.zshrc
-: 1537816274:0;scp .zshrc jeanlouis@192.168.0.25:/home/jeanlouis/.zshrc
-: 1537817265:0;root
-: 1537898725:0;sshsrv
-: 1537900203:0;zshrc
-: 1537987517:0;.oh-my-zsh/custom/plugins
-: 1537987531:0;zsh-syntax-highlighting
-: 1537987575:0;zsh-autosuggestions
-: 1537987593:0;...
-: 1538592642:0;startx
-: 1538592690:0;yasu
-: 1538592722:0;yay -Suy --noconfirm
-: 1538593957:0;vim MonBackup.sh
-: 1538594591:0;git config
-: 1538594620:0;git config --global
-: 1538594649:0;cls
-: 1538594663:0;d
-: 1538594671:0;~/Téléchargements
-: 1538594683:0;github
-: 1538594731:0;du
-: 1538594748:0;yay
-: 1538594755:0;yay/
-: 1538594764:0;gl
-: 1538594785:0;rmd yay
-: 1538594795:0;du -h
-: 1538594811:0;nerd-fonts
-: 1538594818:0;./install.sh
-: 1538594832:0;hdd
-: 1538595017:0;mcd ma_config
-: 1538595066:0;Documents
-: 1538595239:0;mv MonBackup.sh ma_config.sh
-: 1538595729:0;chmod 711 ma_config.sh
-: 1538595745:0;chmod 722 ma_config.sh
-: 1538595758:0;chmod 733 ma_config.sh
-: 1538595774:0;chmod 744 ma_config.sh
-: 1538595962:0;vim ma_config.sh
-: 1538596095:0;./ma_config.sh
-: 1538596137:0;ma_config
-: 1538596165:0;..
-: 1538596169:0;rmd ma_config
-: 1538596195:0;groups
-: 1538596214:0;cd
-: 1538596219:0;.oh-my-zsh/custom
-: 1538596244:0;mv historyjl.zsh ~/.oh-my-zsh/custom/plugins
-: 1538596260:0;mv jlh.plugin.zsh ~/.oh-my-zsh/custom/plugins
-: 1538596284:0;mv jlh.zsh-theme ~/.oh-my-zsh/custom/themes
-: 1538596286:0;l
-: 1538596290:0;cat example.zsh
-: 1538596349:0;sa gir
-: 1538596357:0;hs
-: 1538596359:0;l
-: 1538596361:0;la
-: 1538596368:0;ld
-: 1538596627:0;.oh-my-zsh/custom/plugins
-: 1538596629:0;l
-: 1538596662:0;mv historyjl.zsh jlh.plugin.zsh ~/.oh-my-zsh/custom
-: 1538596664:0;l
-: 1538596670:0;..
-: 1538596676:0;themes
-: 1538596677:0;l
-: 1538596694:0;mv jlh.zsh-theme ~/.oh-my-zsh/custom/
-: 1538596696:0;l
-: 1538596699:0;..
-: 1538596704:0;l
-: 1538596714:0;cd
-: 1538596878:0;Documents
-: 1538596879:0;l
-: 1538596933:0;./ma_config.sh
-: 1538596938:0;l
-: 1538596945:0;ma_config/
-: 1538596946:0;l
-: 1538597028:0;git init
-: 1538597049:0;git add .
-: 1538597386:0;git rm --cached custom/zsh-autosuggestions
-: 1538597405:0;git rm --cached custom/plugins/zsh-autosuggestions
-: 1538597422:0;git rm --cached custom/plugins/zsh-syntax-highlighting
-: 1538597451:0;git rm -f --cached custom/plugins/zsh-syntax-highlighting
-: 1538597478:0;git rm --cached custom/plugins/zsh-autosuggestions -f
-: 1538597498:0;git rm --cached custom/themes/powerlevel9k -f
-: 1538597547:0;git commit -m "Commit initial"
-: 1538597730:0;git config --global user.email "zebulonfr@hotmail.fr"
-: 1538597754:0;git config --global user.name "zebulon974"
-: 1538597761:0;git commit -m "Commit initial"
-: 1538597774:0;git push
-: 1538597784:0;git push ma_config
-: 1538597802:0;sa upstream
-: 1538597824:0;gpsup
-: 1538597869:0;git push --set-upstream ma_config master
-: 1538598134:0;git remote add origin https://github.com/zebulon974/ma_config
-: 1538598185:0;git remote -v
-: 1538598221:0;git push --set-upstream ma_config master
-: 1538598264:0;git push --set-upstream ma_config origin
-: 1538598277:0;git push 
-: 1538598331:0;git push --set-upstream ma_config origin
-: 1538598477:0;git push
-: 1538598496:0;git push --set-upstream origin master
-: 1538598567:0;git pull
-: 1538598576:0;l
-: 1538598651:0;git pull ma_config master
-: 1538598790:0;git add .
-: 1538598798:0;git push
-: 1538598808:0;git push --set-upstream origin master
-: 1538598902:0;git remote -v
-: 1538598926:0;git push
-: 1538598955:0;git status
-: 1538598993:0;..
-: 1538598998:0;rmd ma_config
-: 1538599000:0;l
-: 1538599036:0;gcl https://github.com/zebulon974/ma_config
-: 1538599043:0;l
-: 1538599049:0;ma_config
-: 1538599068:0;l
-: 1538599083:0;touch test
-: 1538599085:0;l
-: 1538599095:0;git add test
-: 1538599122:0;git commit -m 'Ajout fichier Test'
-: 1538599128:0;git push
-: 1538599205:0;..
-: 1538599226:0;./ma_config.sh
+: 1517831890:0;pacman -S ntfs-3g
+: 1517831898:0;_ pacman -S ntfs-3g
+: 1517832289:0;stratx
+: 1517832415:0;_ pacman -S thunar-archive-plugin thunar-volman thunar-archive-plugin
+: 1517832461:0;_ pacman -S file-roller gvfs
+: 1517832537:0;_ pacman -S p7zip unrar
+: 1517832782:0;pacrem xfce4-terminal
+: 1517832934:0;uppgrade
+: 1517832998:0;pacin networkmanager
+: 1517833069:0;pacin cairo-dock cairo-dock-plug-ins
+: 1517833512:0;startx
+: 1517834297:0;pacin dfc
+: 1517834383:0;pacin gvfs-mtp ristreto
+: 1517834390:0;pacin gvfs-mtp ristretto
+: 1517834464:0;srch wireless
+: 1517834484:0;srch wireless_tools
+: 1517834626:0;custom
+: 1517834639:0;plugins/
+: 1517834706:0;gcl https://github.com/zsh-users/zsh-syntax-highlighting.git
+: 1517834794:0;man mount
+: 1517834830:0;.fonts
+: 1517834881:0;srch arc-darck
+: 1517834884:0;srch arc-dark
+: 1517834892:0;srch arc
+: 1517834958:0;pacin arc-gtk-theme arc-icon-theme
+: 1517839901:0;vim aur.list
+: 1517842591:0;pacin xscreensaver
+: 1517847737:0;cat /etc/hostname
+: 1517848785:0;pacin lightdm lightdm-gtk-greeter 
+: 1517848822:0;sc-enable lightdm.service
+: 1517848833:0;sc-start lightdm.service
+: 1517849120:0;sudo localectl set-x11-keymap fr
+: 1517849191:0;pacin lightdm-gtk-greeter-settings
+: 1517849790:0;pacin smplayer
+: 1517850492:0;cryptsetup luksChangeKey
+: 1517850501:0;cryptsetup luksChangeKey /dev/sda2
+: 1517850508:0;_ cryptsetup luksChangeKey /dev/sda2
+: 1517910623:0;dfc
+: 1517910683:0;SCREEN_NO=1
+: 1517911918:0;man dd
+: 1517912485:0;passwd roo
+: 1517912490:0;passwd root
+: 1517912497:0;_ passwd root
+: 1517914103:0;pacin screenfetch
+: 1517914384:0;vim mimeapps.list
+: 1517914410:0;vim user-dirs.locale
+: 1517914418:0;vim user-dirs.dirs
+: 1517914453:0;xfce4
+: 1517914464:0;panel
+: 1517915809:0;terminator
+: 1517916529:0;cat /etc/pacman.conf
+: 1517916748:0;pacin mousepad
+: 1517916785:0;reboot
+: 1517917123:0;top
+: 1518002381:0;vim /boot/grub/grub.cfg
+: 1518002394:0;_ vim /boot/grub/grub.cfg
+: 1518002438:0;journalctl -err
+: 1518002476:0;journalctl -xn
+: 1518002503:0;journalctl
+: 1518002550:0;journalctl G TPM
+: 1518017906:0;ip link set wlp6s0 up
+: 1518017913:0;_ ip link set wlp6s0 up
+: 1518018069:0;pacin virtualbox virtualbox-host-modules-arch
+: 1518018235:0;modprobe vboxdrv
+: 1518018240:0;_ modprobe vboxdrv
+: 1518018647:0;gpasswd -a jeanlouis vboxusers
+: 1518018652:0;_ gpasswd -a jeanlouis vboxusers
+: 1518020955:0;cp __.config_terminator_config.txt ~/.config/terminator
+: 1518020961:0;2
+: 1518020964:0;1
+: 1518020997:0;mv __.config_terminator_config.txt config
+: 1518021272:0;rm config
+: 1518021278:0;x config.tar.gz
+: 1518022166:0;./update_hosts.sh
+: 1518022393:0;vim update_hosts.sh
+: 1518022473:0;_ ./update_hosts.sh
+: 1518022521:0;head /etc/hosts
+: 1518083247:0;systemd-analyze
+: 1518092388:0;locate if
+: 1518106914:0;openssh
+: 1518106926:0;pacin openssh
+: 1518106941:0;ssh 
+: 1518107399:0;scp .vimrc jeanlouis@192.168.1.23:/home/jeanlouis
+: 1518107544:0;ip addr
+: 1518107596:0;pacin filezilla
+: 1518108353:0;terminator/
+: 1518108385:0;Bureau
+: 1518108557:0;ssh 192.168.1.23
+: 1518173247:0;vim Documents/config
+: 1518173350:0;mv .config/terminator/config .config/terminator/config.bck
+: 1518173359:0;x .config/terminator/config.tar.gz
+: 1518173408:0;mv config .config/terminator
+: 1518173445:0;diff config config.bck
+: 1518173480:0;vim config.bck
+: 1518173734:0;cp config config1
+: 1518174354:0;~/Documents
+: 1518174489:0;.config/terminator
+: 1518174491:0;vim config
+: 1518183520:0;man terminator_config
+: 1518186865:0;rm .config/terminator/config
+: 1518187136:0;man terminator
+: 1518187355:0;terminator --layout=jlh
+: 1518188180:0;pacin glances
+: 1518191037:0;vim .config/terminator/config
+: 1518191206:0;glances
+: 1518191254:0;glances -t 2
+: 1518191944:0;hdd
+: 1518192134:0;ping googgle.fr
+: 1520250434:0;pacin gparted
+: 1520332434:0;chattr -i /etc/resolv.conf
+: 1520332438:0;_ chattr -i /etc/resolv.conf
+: 1520332725:0;_ vim /etc/resolv.conf
+: 1520332808:0;_ chattr +i /etc/resolv.conf
+: 1520332826:0;man resolv.conf
+: 1520333579:0;./update_system.sh
+: 1520333587:0;_ ./update_system.sh
+: 1520333612:0;cat update_system.sh
+: 1520334991:0;srch ntfs
+: 1520335172:0;srch thunar
+: 1520335205:0;runas
+: 1520335394:0;hs defrag
+: 1520335415:0;e4defrag --help
+: 1520335438:0;e4defrag -c 
+: 1520335462:0;e4defrag -c /run/media/jeanlouis/E2B/_ISO/LINUX
+: 1520335505:0;./defragfs -c /run/media/jeanlouis/E2B/_ISO/LINUX
+: 1520335525:0;./defragfs -c /run/media/jeanlouis/E2B/_ISO/LINUX/PhoenixOSInstaller-v1.5.0.297-x86.iso
+: 1520335536:0;_ ./defragfs -c /run/media/jeanlouis/E2B/_ISO/LINUX/PhoenixOSInstaller-v1.5.0.297-x86.iso
+: 1520335572:0;_ ./defragfs -c /run/media/jeanlouis/E2B/_ISO/LINUX/
+: 1520335584:0;_ ./defragfs /run/media/jeanlouis/E2B/_ISO/LINUX/
+: 1520345883:0;_ dd if=PhoenixOSInstaller-v1.5.0.297-x86.iso of=/dev/sdb status=progress
+: 1520347174:0;chmod +x unetbootin-linux64-657.bin
+: 1520347180:0;./unetbootin-linux64-657.bin
+: 1520347220:0;pacin mtools
+: 1520350131:0;_ ./unetbootin-linux64-657.bin
+: 1520852557:0;man cut
+: 1520852575:0;man -L fr cut
+: 1520852595:0;man -L fr date
+: 1520852608:0;man -L fr
+: 1520852619:0;man date -L fr
+: 1520853673:0;id
+: 1520855237:0;awk
+: 1520855326:0;type awk
+: 1520855450:0;type echo
+: 1520855475:0;type cd
+: 1520855483:0;type cal
+: 1520855494:0;type kill
+: 1520855645:0;echo a b   c "d   e" "f g"
+: 1520855730:0;date -d @1000214040 +%d/%m/%y
+: 1520856385:0;date %c
+: 1520856500:0;date %C
+: 1520856510:0;man date
+: 1520856544:0;date -%C
+: 1520856549:0;date +%C
+: 1520856560:0;date +%c
+: 1520857697:0;cat /etc/passwd
+: 1520864167:0;Documents/MOOC\ Bash
+: 1520864174:0;umask 123
+: 1520864181:0;mkdir test
+: 1520866219:0;cd /home/jeanlouis/Documents/MOOC\ Bash
+: 1520943153:0;a=*
+: 1520943166:0;echo $a
+: 1520943198:0;echo "$a $(pwd)"
+: 1520943220:0;echo $a $(pwd)
+: 1520943265:0;echo :  : $a
+: 1520943440:0;i=*
+: 1520943460:0;echo "$i"
+: 1520943481:0;echo '$i'
+: 1520943503:0;echo \$i
+: 1520943797:0;$?
+: 1520943800:0;echo $?
+: 1520944197:0;ps -f
+: 1520944935:0;sleep 1000 $
+: 1520944946:0;sleep 1000 &
+: 1520944951:0;jobs
+: 1520944994:0;kill -15 16906
+: 1520945907:0;history
+: 1520945912:0;history|wc
+: 1521636928:0;echo *
+: 1521636948:0;echo
+: 1522065151:0;uname
+: 1522065166:0;whoami
+: 1522065511:0;banniere=\"unmae says to whoami : [4]hello don[5]t stop[6]"
+: 1522065535:0;banniere=\"unmae says to whoami : \"hello don\'t stop\"
+: 1522065664:0;i=1
+: 1522065667:0;echo i
+: 1522065678:0;echo $i
+: 1522065741:0;banniere=\"$unmae says to $whoami : \"hello don\'t stop\"
+: 1522065811:0;banniere=$unmae "says to" $whoami ": \"hello don\'t stop\"
+: 1522065822:0;banniere=unmae "says to" whoami ": \"hello don\'t stop\"
+: 1522065848:0;uname "says ti 
+: 1522065852:0;uname "says to"
+: 1522143854:0;ban="$(uname)"
+: 1522143904:0;ban="$(uname) says to"
+: 1522144015:0;ban="$(uname) says to $(whoami)"
+: 1522144026:0;ban="$(uname) says to $(whoami) : "
+: 1522144037:0;ban="$(uname) says to $(whoami) : hello"
+: 1522144055:0;ban="$(uname) says to $(whoami) : hello don\'t"
+: 1522144066:0;ban="$(uname) says to $(whoami) : hello don\'t stop"
+: 1522144079:0;ban="$(uname) says to $(whoami) : hello don\ 't stop"
+: 1522144086:0;ban="$(uname) says to $(whoami) : hello don't stop"
+: 1522144127:0;ban="$(uname) says to $(whoami) : \"hello don't stop\""
+: 1522144129:0;echo $ban
+: 1522412194:0;pacin firefox firefox-i18n-fr
+: 1523531049:0;update_system.sh
+: 1523531053:0;_ update_system.sh
+: 1524658099:0;yaupg
+: 1525074556:0;.oh-my-zsh/plugins/archlinux
+: 1525074564:0;cat README.md
+: 1525074691:0;yalst G aur
+: 1525075067:0;paclist
+: 1525075077:0;pacweb
+: 1525075279:0;yaconf
+: 1525081120:0;pstree
+: 1525083429:0;screenfetch -N
+: 1525083469:0;screenfetch
+: 1525083474:0;screenfetch -e
+: 1525089718:0;git config
+: 1525089786:0;git config global 
+: 1525089924:0;pacin git
+: 1525090087:0;mkdir Documents/Premier\ Git
+: 1525090220:0;touch test.txt
+: 1525090306:0;git add test.txt
+: 1525092351:0;rm Premier\ Git
+: 1525092359:0;rmd Premier\ Git
+: 1525092385:0;mcd Githun
+: 1525092403:0;mv Githun github
+: 1525092413:0;github
+: 1525092432:0;mv Github mon_github
+: 1525092441:0;mv github mon_github
+: 1525092477:0;gcl https://github.com/zebulon974/Helloworld.git
+: 1525092489:0;Helloworld
+: 1525092533:0;git config global user.name "zebulon974"
+: 1525092684:0;touch script.js
+: 1525092691:0;vim script.js
+: 1525092781:0;git config --global user.name "zebulon974"
+: 1525092804:0;git config --global user.email "zebulonfr@hotmail.fr"
+: 1525092809:0;git commit -am "Premier test"
+: 1525092848:0;git add script.js
+: 1525092856:0;git commit -m "Premier test"
+: 1525093871:0;mcd Exercice_1
+: 1525093889:0;git init
+: 1525094186:0;Téléchargements/mon_github/Exercice_1
+: 1525094200:0;vim README.txt
+: 1525094263:0;git add README.txt
+: 1525094312:0;git commit -m "Creation du Git et fichier README.txt"
+: 1525094420:0;touch fichier\ 1
+: 1525094690:0;git add fichier\ 1
+: 1525094693:0;git commit -am "Ajout fichier avec Article Premier des droits de l'homme"
+: 1525094849:0;git commit -am "Ajout fichier avec Article Premier de la constitution française"
+: 1525094892:0;vim fichier\ 1
+: 1525094945:0;git commit -am "Modification du Fichier 1"
+: 1525095060:0;vim Fichier\ 2
+: 1525095135:0;git commit -am "Ajout de l'articke 2 de la constitution au Fichier 2"
+: 1525095140:0;git log
+: 1525095324:0;git remote add origin https://github.com/zebulon974/Exercice_1.git
+: 1525097280:0;git branch
+: 1525100244:0;git blame Fichier\ 2
+: 1525261951:0;Téléchargements/
+: 1525261989:0;git branch test1
+: 1525262046:0;git commit
+: 1525262102:0;touch Fichier\ 3
+: 1525262108:0;vim Fichier\ 3
+: 1525262143:0;git add Fichier\ 3
+: 1525262152:0;git commit .
+: 1525262254:0;git commit -am "Test de creation d'une branche Fichier 3"
+: 1525262291:0;git checkout master
+: 1525262374:0;git checkout test1
+: 1525262410:0;git push --set-upstream origin test1
+: 1527254708:0;srch snap
+: 1527254755:0;yain snapd
+: 1527255133:0;snap serach spotify
+: 1527255239:0;snap install spotify
+: 1527255830:0;snap enable
+: 1527255840:0;snap enable spotify
+: 1527255860:0;snap try spotify
+: 1527255881:0;snap start
+: 1527255887:0;snap start spotify
+: 1527255894:0;_ snap start spotify
+: 1527255941:0;spotify
+: 1527671617:0;sudo rm /usr/lib/libmozjs-52.so.0
+: 1527671925:0;pacman -Suy
+: 1527671930:0;_ pacman -Suy
+: 1527671950:0;yaourt -Suy
+: 1527673377:0;pacman -Sy package-query yaourt
+: 1527673587:0;_ pacman -Sy package-query yaourt
+: 1527674007:0;pacrem yaourt package-query
+: 1527674032:0;pacin yaourt
+: 1527674064:0;git clone https://aur.archlinux.org/package-query.git
+: 1527674086:0;package-query
+: 1527674166:0;git clone https://aur.archlinux.org/yaourt.git
+: 1527674172:0;yaourt
+: 1528458289:0;pam_usb
+: 1528458333:0;srch pam_usb
+: 1528883829:0;hs snap
+: 1528883853:0;snap
+: 1528883861:0;snap/
+: 1528883898:0;sc-start snapd.socket
+: 1528883907:0;sc-enable snapd.socket
+: 1529587873:0;snap search spotify
+: 1529587892:0;snap search molotov
+: 1529587909:0;srch molotov
+: 1529587934:0;yain molotov
+: 1530022549:0;hosts.sh
+: 1530627096:0;molotov
+: 1533806416:0;snapd 
+: 1534156166:0;srch transmission
+: 1534156183:0;srch qt
+: 1534156218:0;pacin transmission-qt
+: 1534175018:0;pacin libreoffice-fresh-fr
+: 1534230747:0;./defragfs
+: 1534230779:0;./defragfs /run/media/jeanlouis/E2B/_ISO/LINUX
+: 1534230788:0;_ ./defragfs /run/media/jeanlouis/E2B/_ISO/LINUX
+: 1534255921:0;srch genealogie
+: 1534255928:0;srch gene
+: 1534255941:0;srch genea
+: 1535119436:0;screenfetch --help
+: 1535119518:0;screenfetch -M
+: 1535119557:0;screenfetch -n
+: 1535119567:0;screenfetch -L
+: 1535119581:0;screenfetch -w
+: 1535119595:0;screenfetch -t
+: 1535119603:0;screenfetch -p
+: 1535119645:0;screenfetch -c 1-5
+: 1535119652:0;screenfetch -c 0-5
+: 1535119656:0;screenfetch -c 0-9
+: 1535119659:0;screenfetch -c 0
+: 1535119665:0;screenfetch -c 1
+: 1535119678:0;screenfetch -c 1 2
+: 1535119684:0;screenfetch -c 1 7
+: 1535119693:0;screenfetch -c 2
+: 1535119696:0;screenfetch -c 3
+: 1535119704:0;screenfetch -c 4
+: 1535119707:0;screenfetch -c 5
+: 1535119710:0;screenfetch -c 6
+: 1535119713:0;screenfetch -c 7
+: 1535119716:0;screenfetch -c 8
+: 1535119719:0;screenfetch -c 9
+: 1535119727:0;screenfetch -c 9-9
+: 1535119744:0;screenfetch -c 9,9
+: 1535119747:0;screenfetch -c 9,5
+: 1535119756:0;screenfetch -c 9,2
+: 1535119763:0;screenfetch -c 7,2
+: 1535119799:0;screenfetch -E
+: 1535119805:0;screenfetch 
+: 1535119872:0;.config
+: 1535119891:0;.local
+: 1535119899:0;shred
+: 1535119907:0;shred -h
+: 1535119917:0;shred --help
+: 1535120351:0;screenfetch -v
+: 1535123076:0;timedatectl --help
+: 1535123109:0;timedatectl set-ntp true
+: 1535122839:0;timedatectl
+: 1535123997:0;srch courrier
+: 1535124006:0;srch bold
+: 1535379500:0;fastboot
+: 1535379508:0;adb
+: 1535379517:0;srch adb
+: 1535379537:0;srch fastboot
+: 1535437783:0;gotop
+: 1535437788:0;srch gotop
+: 1535437798:0;srch htop
+: 1535437808:0;pacin htop
+: 1535437834:0;pacin lsof
+: 1535437856:0;htop
+: 1535524731:0;cat /etc/resolv.conf
+: 1535525556:0;git clone https://aur.archlinux.org/yay.git
+: 1535525609:0;makepkg -si
+: 1535531885:0;srch go
+: 1535535709:0;gst
+: 1535536011:0;archlinux
+: 1535536019:0;vim archlinux.plugin.zsh
+: 1535536317:0;m
+: 1535536333:0;vim README.md
+: 1535537533:0;pacman -S ttf-{bitstream-vera,liberation,freefont,dejavu} freetype2
+: 1535537539:0;_ pacman -S ttf-{bitstream-vera,liberation,freefont,dejavu} freetype2
+: 1535552346:0;yay --help
+: 1535552537:0;yay -s
+: 1535552543:0;yay -w
+: 1535552554:0;yay -c
+: 1535611573:0;printcolors
+: 1535611575:0;printcolor
+: 1535611849:0;gcl https://github.com/carloscuesta/materialshell.git
+: 1535611869:0;rmd yay
+: 1535611885:0;materialshell
+: 1535612349:0;cp materialshell.zsh ~/.oh-my-zsh/custom/materialshell.zsh.theme
+: 1535612406:0;source
+: 1535612464:0;mv materialshell.zsh.theme materialshell.zsh-theme
+: 1535613077:0;antigen-version
+: 1535613106:0;antibody bundle carloscuesta/materialshell
+: 1535613121:0;antigen bundle carloscuesta/materialshell
+: 1535613230:0;vim materialshell.zsh-theme
+: 1535696632:0;antigen theme
+: 1535696644:0;antigen help
+: 1535696752:0;antigen selfupdate
+: 1535697088:0;antigen use oh-my-zsh
+: 1535697166:0;antigen theme pure
+: 1535697237:0;antigen bundle git
+: 1535697265:0;antigen bundle command-not-find
+: 1535697547:0;la -l
+: 1535697582:0;vim .zshrc.zwc
+: 1535697706:0;antigen theme candy
+: 1535697809:0;antigen theme clean
+: 1535697828:0;antigen theme apple
+: 1535697845:0;antigen theme 3den
+: 1535697879:0;antigen theme dst
+: 1535697888:0;antigen theme cloud
+: 1535710725:0;antigen theme eastwood
+: 1535710796:0;vim fino.zsh-theme
+: 1535710868:0;antigen theme funky
+: 1535710901:0;antigen theme gallois
+: 1535710924:0;antigen theme godzilla
+: 1535710939:0;antigen theme gozilla
+: 1535710970:0;antigen theme terminalparty
+: 1535710991:0;antigen theme steeef
+: 1535711061:0;antigen theme philips
+: 1535711073:0;antigen theme muse
+: 1535711089:0;antigen theme reSet
+: 1535711095:0;antigen theme reset
+: 1535711110:0;antigen theme re5et
+: 1535711134:0;antigen theme sammy
+: 1535711153:0;.oh-my-zsh/themes
+: 1535711238:0;vim .oh-my-zsh/themes/fino.zsh-theme
+: 1535711265:0;vim .oh-my-zsh/custom/materialshell.zsh-theme
+: 1535955547:0;yay -Ss cron-ui
+: 1535955755:0;yay -h
+: 1535955983:0;_ vim /etc/pacman.conf
+: 1535956182:0;sa rem
+: 1535956201:0;yay -Rns yaourt
+: 1535956219:0;yay -Rns package-query
+: 1535956248:0;srch cron
+: 1535970151:0;srch yaourt
+: 1535970362:0;find /etc /opt /usr | sort > all_files.txt
+: 1535970372:0;_ find /etc /opt /usr | sort > all_files.txt
+: 1535970398:0;_ pacman -Qlq | sed 's|/$||' | sort > owned_files.txt
+: 1535970422:0;vim all_files.txt
+: 1535970457:0;vim owned_files.txt
+: 1535970503:0;comm -23 all_files.txt owned_files.txt
+: 1535970599:0;_ find /etc /opt /usr | sort > all_files2.txt
+: 1535970631:0;diff all_files all_files2.txt
+: 1535970645:0;diff all_files.txt all_files2.txt
+: 1535970663:0;diff owned_files.txt owned_files2.txt
+: 1535970680:0;rm all_files2.txt owned_files2.txt
+: 1535970883:0;srch lost
+: 1535970936:0;pacin lostfiles
+: 1535970961:0;lostfiles
+: 1535970978:0;_ lostfiles
+: 1535970998:0;_ pacman -Qlq | sed 's|/$||' | sort > owned_files2.txt
+: 1535971015:0;vim owned_files2.txt
+: 1535971056:0;rm owned_files2.txt
+: 1536140694:0;upgrade
+: 1536143599:0;pacman -Qm
+: 1536158331:0;srch gramps
+: 1536158481:0;pacin gramps -D
+: 1536158502:0;pacin gramps
+: 1536158540:0;pacin osm-gps-map
+: 1536158592:0;pacin libgexiv2
+: 1536233938:0;pacin pulseaudio-equalizer
+: 1536234005:0;pulseaudio
+: 1536301397:0;snap list
+: 1536301408:0;snap refresh
+: 1536563534:0;yay -Suyy
+: 1536563674:0;pacrmorphans
+: 1536563713:0;srch pcmciautils
+: 1536563727:0;srch pcmciautil
+: 1536563735:0;srch pcmcia
+: 1536563753:0;pacls
+: 1536563774:0;sa orph
+: 1536563790:0;_ yay -Qdt
+: 1536563802:0;_ _ yay -Qdt
+: 1536566869:0;antygen apply
+: 1536566986:0;antigen theme fino-time
+: 1536568309:0;srch powerline
+: 1536570880:0;git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
+: 1536571599:0;rm -rf ~/.antigen
+: 1536571635:0;zsh
+: 1536571639:0;sh
+: 1536571661:0;antigen theme fino
+: 1536571677:0;antigen apply
+: 1536572034:0;gcl https://github.com/powerline/fonts.git
+: 1536574376:0;fonts
+: 1536574382:0;./install.sh
+: 1536574438:0;chmod 711 uninstall.sh
+: 1536574455:0;chmod 755 uninstall.sh
+: 1536574467:0;chmod 733 uninstall.sh
+: 1536574478:0;chmod 722 uninstall.sh
+: 1536574493:0;chmod 744 uninstall.sh
+: 1536574505:0;./uninstall.sh
+: 1536574520:0;rmd fonts
+: 1536574595:0;srch nerds
+: 1536574631:0;yay nerd-fonts-complete
+: 1536578173:0;getColorCode background
+: 1536578198:0;getColorCode foreground
+: 1536578473:0;cls
+: 1536578652:0;_ ls
+: 1536579903:0;jhcschsdjkvhifqd
+: 1536579919:0;lz4
+: 1536584439:0;srch pip
+: 1536584477:0;pip 
+: 1536584492:0;cd Téléchargements
+: 1536584607:0;/etc
+: 1536585133:0;srch fonts
+: 1536586139:0;srch fontbase
+: 1536586221:0;rm all_files.txt
+: 1536586253:0;rm owned_files.txt
+: 1536586465:0;mcd tést
+: 1536586488:0;fc-cache -vf
+: 1536586503:0;rmd tést
+: 1536586570:0;echo LANG
+: 1536586620:0;echo LANG$
+: 1536586633:0;echo $LANG
+: 1536587040:0;vim /etc/locale.conf
+: 1536587076:0;vim /etc/locale.gen
+: 1536587147:0;export LANG=fr-pc
+: 1536587250:0;export LANG=fr_FR.UTF-8
+: 1536659400:0;ping 192.168.1.19
+: 1536659407:0;ssh
+: 1536659549:0;scp .vimrc jeanlouis@192.168.1.19:/home/jeanlouis/
+: 1536659638:0;la
+: 1536659752:0;scp historyjl.zsh jlh.plugin.zsh jlh.zsh-theme jeanlouis:192.168.1.19:/home/jeanlouis/.oh-my-zsh/custom/
+: 1536659772:0;scp historyjl.zsh jlh.plugin.zsh jlh.zsh-theme jeanlouis@192.168.1.19:/home/jeanlouis/.oh-my-zsh/custom/
+: 1536659825:0;scp -R zsh-syntax-highlighting jeanlouis@192.168.1.19:/home/jeanlouis/.oh-my-zsh/custom/plugins/
+: 1536659839:0;scp -r zsh-syntax-highlighting/ jeanlouis@192.168.1.19:/home/jeanlouis/.oh-my-zsh/custom/plugins/
+: 1536661237:0;h
+: 1536732743:0;fdisk -l
+: 1536732839:0;hs dd
+: 1536732941:0;_ dd if=archlinux-2018.09.01-x86_64.iso of=/dev/sdb bs=4M status=progress && sync
+: 1536733332:0;sa yasu
+: 1536733341:0;yasu
+: 1536734355:0;_ dd if=archlinux-2018.09.01-x86_64.iso of=/dev/sdb status=progress && sync
+: 1536735288:0;_ fdisk -l
+: 1536748245:0;ls /usr/lib/libarchive*
+: 1536748259:0;l /usr/lib/libarchive*
+: 1536752124:0;cp /usr/lib/libarchive.so.13.3.3 /run/media/jeanlouis/7299-4CA6
+: 1536752837:0;l /usr/lib/libts*
+: 1536820875:0;yay -Rsn antigen
+: 1536820886:0;yay -Rsn antigen-git
+: 1536821033:0;plugins
+: 1536821049:0;yay antigen-git
+: 1536821155:0;antigen install powerlevel9k
+: 1536821169:0;antigen -h
+: 1536821172:0;antigen -help
+: 1536821176:0;antigen --help
+: 1536821258:0;srch powerlevel
+: 1536920077:0;srch xcfe4
+: 1536920087:0;srch xfce4
+: 1536920213:0;groups
+: 1536920792:0;srch pulseaudio
+: 1537179069:0;vim /etc/mkinitcpio.conf
+: 1537183608:0;scp historyjl.zsh jlh.plugin.zsh jlh.zsh-theme jeanlouis@192.168.43.97:/home/jeanlouis/.oh-my-zsh/custom/
+: 1537284678:0;infocmp
+: 1537351882:0;srch antigen
+: 1537351952:0;antigen bundle powerlevel9k
+: 1537351974:0;vim .zshrc
+: 1537351997:0;antigen search powerlevel9k
+: 1537352018:0;antigen -install powerlevel9k
+: 1537352026:0;antigen 
+: 1537352043:0;antigen cleanup
+: 1537352071:0;.oh-my-zsh
+: 1537352093:0;antigen purge
+: 1537352127:0;antigen update
+: 1537352135:0;antigen list
+: 1537352150:0;custom/plugins
+: 1537352206:0;ping google.fr
+: 1537352213:0;antigen bundle zsh-autosuggestions
+: 1537352221:0;antigen bundle zsh-autosuggestion
+: 1537352231:0;antigen bundle oh-my-zsh
+: 1537352270:0;/
+: 1537352289:0;_ fd antigen
+: 1537352474:0;antigen
+: 1537352478:0;ff antigen
+: 1537352486:0;fd antigen
+: 1537360896:0;ssh 192.168.1.28
+: 1537361105:0;ping 192.168.1.28
+: 1537361155:0;ping 192.168.1.20
+: 1537361544:0;.oh-my-zsh/custom
+: 1537361562:0;scp historyjl.zsh jlh.plugin.zsh jlh.zsh-theme jeanlouis@192.168.1.20:/home/jeanlouis/.oh-my-zsh/custom/
+: 1537361678:0;ssh 192.168.1.20
+: 1537777274:0;_ vim /etc/locale.gen
+: 1537777347:0;locale-gen
+: 1537777357:0;_ locale-gen
+: 1537778583:0;yay -Rns antigen-git
+: 1537778596:0;paclsorphans
+: 1537778706:0;themes
+: 1537778715:0;powerlevel9k
+: 1537779001:0;rmd materialshell
+: 1537779018:0;rm iTunes64Setup.exe
+: 1537779116:0;hs nerd
+: 1537779139:0;srch nerd
+: 1537779627:0;_ locale
+: 1537782033:0;gcl https://github.com/zsh-users/zsh-autosuggestions.git
+: 1537787753:0;alias
+: 1537787808:0;cat /etc/hosts
+: 1537788113:0;hs zsh
+: 1537788125:0;hs syntax
+: 1537788196:0;hs auto
+: 1537788243:0;hs power
+: 1537788251:0;:493
+: 1537788412:0;root
+: 1537788802:0;hs dit
+: 1537788813:0;hs git
+: 1537789758:0;sleep 10
+: 1537961182:0;touch fichier\ 4
+: 1537961198:0;ssa git
+: 1537961205:0;sa git
+: 1537961239:0;sa add
+: 1537961244:0;gaa
+: 1537961252:0;gca
+: 1537961289:0;gau
+: 1537961322:0;git 
+: 1537961335:0;git add Fichier\ 4
+: 1537961354:0;git add Fichier\ 2
+: 1537961404:0;gca "Ajout Fichier 4"
+: 1537961414:0;sa commit
+: 1537961428:0;hs commit
+: 1537961483:0;git commit 'am "Ajout du fichier 4"
+: 1537961490:0;git commit -am "Ajout du fichier 4"
+: 1537961511:0;git commit --help
+: 1537961590:0;sa push
+: 1537961596:0;hs push
+: 1537961609:0;git push origin master
+: 1537961722:0;git push -u origin master
+: 1537963419:0;exit
+: 1537963528:0;source .zshrc
+: 1537971839:0;hostname
+: 1537972089:0;zsh-syntax-highlighting
+: 1537972118:0;..
+: 1537972126:0;zsh-autosuggestions
+: 1537972128:0;gl
+: 1537975337:0;d
+: 1537976734:0;for code ({000..255}) print -P -- "$code: %F{$code}This is how your text would look like%f"
+: 1537977060:0;print
+: 1537977070:0;print color
+: 1537977088:0;print -help
+: 1537977094:0;print -h
+: 1537977102:0;print --help
+: 1537977182:0;sudo 
+: 1537977188:0;sudo  yay -Qdt
+: 1537977215:0;yay -Qdt
+: 1538043775:0;ls
+: 1538047956:0;ZSH_HIGHLIGHT_PATTERNS
+: 1538048746:0;pacin mc
+: 1538048758:0;mc
+: 1538048787:0;0
+: 1538049325:0;Documents/Premier\ Git
+: 1538049350:0;Téléchargements
+: 1538049354:0;mon_github
+: 1538049361:0;Exercice_1
+: 1538049367:0;git push
+: 1538387865:0;yay
+: 1538387889:0;sa yaourt
+: 1538387917:0;vim .oh-my-zsh/plugins/archlinux/README.md
+: 1538388013:0;pacupd
+: 1538388022:0;pacdisowned
+: 1538388029:0;_ pacdisowned
+: 1538388292:0;sa goo
+: 1538388313:0;google racourci yay
+: 1538388513:0;yay -Suya --no-confirm
+: 1538388545:0;yay yaourt
+: 1538388575:0;man yay
+: 1538388778:0;yay -g
+: 1538394655:0;pacweb yaourt
+: 1538394667:0;pacweb yay
+: 1538394675:0;pacweb flash
+: 1538394684:0;pacweb pepper
+: 1538394692:0;pacweb peper
+: 1538394700:0;pacweb git
+: 1538394820:0;google configuration yay
+: 1538394878:0;vim /etc/pacman.conf
+: 1538394959:0;yay pepper
+: 1538395005:0;yay -Ps
+: 1538395065:0;yay pcmciautils
+: 1538395118:0;yay -Yc
+: 1538406301:0;google yay alias
+: 1538406401:0;vim .oh-my-zsh/plugins/archlinux/archlinux.plugin.zsh
+: 1538406532:0;yay -Pg
+: 1538406777:0;edal
+: 1538406997:0;yaloc
+: 1538407003:0;yalocs
+: 1538407014:0;yalst
+: 1538407020:0;yalst G 
+: 1538407042:0;yaorph
+: 1538407514:0;Documents
+: 1538407523:0;.scripts
+: 1538407546:0;colors/
+: 1538407555:0;colors
+: 1538407558:0;./colors
+: 1538407573:0;locale
+: 1538407577:0;locale/
+: 1538407587:0;fr/
+: 1538407597:0;LC_MESSAGES
+: 1538407598:0;l
+: 1538407609:0;vim colors.mo
+: 1538407638:0;vim colors.po\~ 
+: 1538407654:0;cd
+: 1538407659:0;zshrc
+: 1538407685:0;.oh-my-zsh/custom/plugins
+: 1538407703:0;l
+: 1538407707:0;example
+: 1538407714:0;l
+: 1538407723:0;zshrc
+: 1538407743:0;source ~/.zshrc
+: 1538407761:0;cd
+: 1538407772:0;.scripts
+: 1538407773:0;l
+: 1538407778:0;Reparation
+: 1538407780:0;l
+: 1538407807:0;..
+: 1538407814:0;BoxVoyager
+: 1538407815:0;l
+: 1538407833:0;..
+: 1538407836:0;security
+: 1538407837:0;l
+: 1538407846:0;vim secu.sh
+: 1538407866:0;..
+: 1538407868:0;l
+: 1538407898:0;downup
+: 1538407900:0;l
+: 1538407910:0;vim down.sh
+: 1538408011:0;google script sauvegarde configuration archlinux
+: 1538408165:0;..
+: 1538408170:0;cd
+: 1538408174:0;Téléchargements
+: 1538408175:0;l
+: 1538408186:0;vim saveconfig.sh
+: 1538408889:0;Téléchargements
+: 1538408891:0;l
+: 1538475678:0;vim Téléchargements/saveconfig.sh
+: 1538475725:0;Téléchargements
+: 1538475726:0;l
+: 1538475737:0;chmod 744 saveconfig.sh
+: 1538475739:0;l
+: 1538475742:0;./saveconfig.sh
+: 1538475765:0;rm saveconfig.sh
+: 1538476271:0;cd
+: 1538476272:0;l
+: 1538476275:0;la
+: 1538476293:0;vim .zsh_history
+: 1538476450:0;vim .oh-my-zsh/custom/jlh.plugin.zsh
+: 1538476514:0;vim .oh-my-zsh/custom/historyjl.zsh
+: 1538476615:0;sa edal
+: 1538476625:0;hs edal
+: 1538476650:0;hs pwd
+: 1538478169:0;Documents
+: 1538478181:0;vim MonBackup.sh
+: 1538478232:0;.scripts
+: 1538478234:0;cd
+: 1538478239:0;.scripts
+: 1538478241:0;l
+: 1538478252:0;cat hosts.sh
+: 1538478294:0;cat update_system.sh
+: 1538494891:0;cd
+: 1538494894:0;la
+: 1538494963:0;l
+: 1538494981:0;chmod 755 MonBackup.sh
+: 1538494982:0;l
+: 1538495012:0;./MonBackup.sh
+: 1538495042:0;vim MonBackup.sh
+: 1538495066:0;./MonBackup.sh
+: 1538495079:0;vim MonBackup.sh
+: 1538495134:0;./MonBackup.sh
+: 1538495158:0;l
+: 1538495166:0;MonBackup
+: 1538495167:0;l
+: 1538495169:0;la
+: 1538495196:0;vim ~/Doculments/MonBackup.sh
+: 1538495208:0;vim ~/Documents/MonBackup.sh
+: 1538495234:0;Documents
+: 1538495239:0;./MonBackup.sh
+: 1538495404:0;l
+: 1538495418:0;rmd MonBackup
+: 1538495556:0;monbackup
+: 1538495558:0;l
+: 1538495561:0;la
+: 1538495626:0;./MonBackup.sh
+: 1538495634:0;..
+: 1538495636:0;./MonBackup.sh
+: 1538495641:0;d
+: 1538495644:0;1
+: 1538495646:0;l
+: 1538495651:0;la
+: 1538495659:0;rm .*
+: 1538495669:0;l
+: 1538495682:0;sa git
+: 1538495709:0;sa init
+: 1538495719:0;dsi
+: 1538495723:0;gsi
+: 1538495743:0;git -h
+: 1538495754:0;man git
+: 1538495795:0;git -init
+: 1538495799:0;git-init
+: 1538566973:0;vim ~/Documents/MonBackup.sh
+: 1538567080:0;Documents
+: 1538567081:0;l
+: 1538567104:0;./MonBackup.sh
+: 1538567224:0;monbackup
+: 1538567226:0;l
+: 1538567326:0;cd
+: 1538567329:0;.scripts
+: 1538567330:0;l
+: 1538567341:0;vim update_system.sh
+: 1538567363:0;vim update_hosts.sh
+: 1538567607:0;cdd
+: 1538567608:0;d
+: 1538567613:0;3
+: 1538567615:0;l
+: 1538567621:0;./MonBackup.sh
+: 1538567796:0;l
+: 1538567802:0;monbackup
+: 1538567803:0;l
+: 1538567809:0;custom
+: 1538567810:0;l
+: 1538567829:0;plugins
+: 1538567830:0;l
+: 1538567846:0;zsh-syntax-highlighting
+: 1538567848:0;l
+: 1538567881:0;cd
+: 1538567884:0;d
+: 1538567886:0;5
+: 1538578183:0;./MonBackup.sh
+: 1538581092:0;l
+: 1538581100:0;rmd monbackup
+: 1538581101:0;l
+: 1538581106:0;./MonBackup.sh
+: 1538581186:0;rmd monbackup
+: 1538581188:0;./MonBackup.sh
+: 1538581679:0;rmd monbackup
+: 1538581683:0;./MonBackup.sh
+: 1538581825:0;rmd monbackup
+: 1538581828:0;./MonBackup.sh
+: 1538582113:0;monbackup
+: 1538582120:0;git init
+: 1538582128:0;l
+: 1538582162:0;git add .
+: 1538582250:0;git commit -m "Le premier commit"
+: 1538582287:0;git log
+: 1538582403:0;git push origin master
+: 1538582419:0;git push 
+: 1538582429:0;git push master
+: 1538582455:0;git push --set-upstream master master\
+
+: 1538651434:0;Documents
+: 1538651435:0;l
+: 1538651454:0;monbackup
+: 1538651456:0;l
+: 1538651464:0;..
+: 1538651474:0;rmd monbackup
+: 1538651476:0;l
+: 1538651508:0;gcl https://github.com/zebulon974/ma_config
+: 1538651512:0;l
+: 1538651518:0;ma_config
+: 1538651520:0;l
+: 1538651528:0;git log
+: 1538651546:0;la
+: 1538651555:0;vim .gitignore
+: 1538651624:0;vim ~/Documents/MonBackup.sh
+: 1538651892:0;sa git
+: 1538651928:0;glg
+: 1538651938:0;glgg
+: 1538651996:0;cp ~/Documents/MonBackup.sh ~/Documents/ma_config
+: 1538651999:0;l
+: 1538652010:0;sa status
+: 1538652021:0;gst
+: 1538652032:0;sa commit
+: 1538652113:0;gcam "Ajout du script MonBackup.sh depuis Arch_work"
+: 1538652133:0;gst
+: 1538652140:0;gcam "Ajout du script MonBackup.sh depuis Arch_work"
+: 1538652159:0;sa add
+: 1538652173:0;ga MonBackup.sh
+: 1538652180:0;gcam "Ajout du script MonBackup.sh depuis Arch_work"
+: 1538652189:0;gst
+: 1538652896:0;l
+: 1538652908:0;vim zsh-history
+: 1538652977:0;ssk-keyge
+: 1538653043:0;ssh-keygen -t ed25519 -C "zebulon974@hotmail.fr"
+: 1538653062:0;l
+: 1538653065:0;la
+: 1538653208:0;eval "$(ssh-agent -s)"
+: 1538653260:0;ssh-add ~/.ssh/id_ed25519
+: 1538653316:0;git remote -v
+: 1538653426:0;git remote set-url origin git@github.com:zebulon974/ma_config.git
+: 1538653431:0;git remote -v
+: 1538653514:0;~/.ssh/
+: 1538653516:0;l
+: 1538653526:0;vim id_ed25519.pub
+: 1538653721:0;d
+: 1538653724:0;1
+: 1538653730:0;l
+: 1538653734:0;gst
+: 1538653740:0;gp
+: 1538654070:0;ga .
+: 1538654075:0;l
+: 1538654083:0;custom
+: 1538654085:0;l
+: 1538654090:0;plugins
+: 1538654091:0;l
+: 1538654117:0;....
+: 1538654125:0;./MonBackup.sh
