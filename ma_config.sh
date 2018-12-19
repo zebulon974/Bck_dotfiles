@@ -1,20 +1,20 @@
 #!/bin/zsh
 
 #Les fichiers à sauvergarder
-if [ ! -d "/home/jeanlouis/Documents/ma_config" ];then
-    echo "Création du dosser ma_config !";
-    mkdir /home/jeanlouis/Documents/ma_config/
+if [ ! -d "${HOME}/Documents/dotfiles" ];then
+    echo "Création du dosser dotfiles !";
+    mkdir ${HOME}/Documents/dotfiles/
 else
-	echo "Le dossier de ma_config existe dejà !"
+	echo "Le dossier de dotfiles existe dejà !"
 fi
 
-cp /home/jeanlouis/.zshrc /home/jeanlouis/Documents/ma_config/zshrc &
-cp /home/jeanlouis/.zsh_history /home/jeanlouis/Documents/ma_config/zsh-history &
-cp /home/jeanlouis/.vimrc /home/jeanlouis/Documents/ma_config/vimrc &
+cp ${HOME}/.zshrc ${HOME}/Documents/dotfiles/zshrc &
+cp ${HOME}/.zsh_history ${HOME}/Documents/dotfiles/zsh-history &
+cp ${HOME}/.vimrc ${HOME}/Documents/dotfiles/vimrc &
 
 # Copie du dossier custom de Oh-my-zsh"
-if [ ! -d "/home/jeanlouis/Documents/ma_config/custom" ];then
-	cp -r /home/jeanlouis/.oh-my-zsh/custom/ /home/jeanlouis/Documents/ma_config/ &
+if [ ! -d "${HOME}/Documents/dotfiles/custom" ];then
+	cp -r ${HOME}/.oh-my-zsh/custom/ ${HOME}/Documents/dotfiles/ &
 else
 	echo "Le Dossier Custom existe déjà"
 fi
