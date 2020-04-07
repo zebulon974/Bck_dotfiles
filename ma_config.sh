@@ -32,4 +32,4 @@ cp -v -u -r ${HOME}/.config/terminator ${HOME}/Documents/mes_projets/dotfiles/co
 cp -r -v -u ${HOME}/.oh-my-zsh/custom/ ${HOME}/Documents/mes_projets/dotfiles/custom_oh_my_zsh
 
 sleep 5
-echo "Sauvegarde Terminée!!"
+echo "Sauvegarde Terminée!!!"
