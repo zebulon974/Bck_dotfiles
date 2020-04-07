@@ -24,7 +24,7 @@ else
 	echo "Le Dossier Custom Oh My ZSH existe, copie des fichiers en cours..."
 fi
 
-sleep5
+sleep 5
 
 # Copie des fichiers
 cp -v -u ${HOME}/.zshrc ${HOME}/Projets/dotfiles/zshrc
