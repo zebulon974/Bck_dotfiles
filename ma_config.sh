@@ -13,7 +13,7 @@ if [ ! -d "${HOME}/Projets/dotfiles/conf_terminator" ];then
     echo "Création du dossier conf-terminator";
     mkdir ${HOME}/Projets/dotfiles/conf_terminator/
 else
-    echo "le dossier de conf terminator existe déjà, copie des fichiers en cours..."
+    echo "le dossier de configuration Terminator existe,"
 fi
 
 # Vérification du dossier custom de Oh-my-zsh"
