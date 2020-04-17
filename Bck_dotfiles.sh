@@ -36,3 +36,4 @@ cp -rvu ${HOME}/.oh-my-zsh/custom/ ${HOME}/Projets/dotfiles/custom_oh_my_zsh
 sleep 3
 
 echo "Sauvegarde Terminée!!!"
+
